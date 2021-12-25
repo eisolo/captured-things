@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/jquery.modal.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload-0 is-preload-1 is-preload-2">
@@ -21,7 +22,7 @@
 					<header id="header">
 						<h1>captured things</h1>
 						<p>digitally immortalizing the things that matter most to you</p>
-						<a href="#">get in touch</a>
+						<a href="#contact-modal" rel="modal:open">get in touch</a>
 						<!-- <ul class="icons">
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -32,7 +33,7 @@
 					<section id="thumbnails">
 						<article>
 							<a class="thumbnail" href="images/fulls/01.jpg" data-position="left center"><img src="images/thumbs/01_t.jpg" alt="" /></a>
-							<h2>Vintage Hamilton automatic</h2>
+							<p>Vintage Hamilton automatic</p>
 						</article>
 						<article>
 							<a class="thumbnail" href="images/fulls/02.jpg"><img src="images/thumbs/02_t.jpg" alt="" /></a>
@@ -86,11 +87,18 @@
 
 			</div>
 
+			<!-- Contact modal-->
+			<div id="contact-modal" class="modal">
+				<p>content of the get in touch modal</p>
+				<a href="#" rel="modal:close">Close</a>
+			</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.modal.min.js"></script>
 
 	</body>
 </html>
