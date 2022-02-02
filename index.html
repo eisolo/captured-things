@@ -45,9 +45,9 @@
 					<header id="header">
 						<h1>captured things</h1>
 						<p>digitally immortalizing the things that matter most to you</p>
-						<a href="#contact-modal" rel="modal:open">contact</a>
-						<a href="/prices">about</a>
-						<a href="/about">prices</a>
+						<a class="nav-link-contact" href="#contact-modal" rel="modal:open">contact</a>
+						<a class="nav-link-about" href="#about-modal" rel="modal:open">about</a>
+						<a class="nav-link-pricing" href="#pricing-modal" rel="modal:open">pricing</a>
 						<!-- <ul class="icons">
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -201,6 +201,47 @@
 				  }
 					</script>
 				<a href="#" rel="modal:close">Close</a>
+			</div>
+
+			<!-- About modal-->
+			<div id="about-modal" class="modal">
+				<div class="about-modal-content">
+				<h1 class="modal-title">About</h1>
+				<p class="modal-content-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+				<a class="modal-close-text" href="#" rel="modal:close">Close</a>
+				</div>
+				</div>
+
+			<!-- Pricing modal-->
+			<div id="pricing-modal" class="modal">
+				<div class="pricing-modal-content">
+				<h1 class="modal-title">Pricing</h1>
+					<table class="tg">
+					<tbody>
+					  <tr>
+						<td class="tg-0lax">Option 1 blah blah</td>
+						<td class="tg-0lax">$75.00</td>
+					  </tr>
+					  <tr>
+						<td class="tg-0lax">Option 2 blah blah</td>
+						<td class="tg-0lax">$125.00</td>
+					  </tr>
+					  <tr>
+						<td class="tg-0lax">Option 3 blah blah</td>
+						<td class="tg-0lax">$200.00</td>
+					  </tr>
+					  <tr>
+						<td class="tg-0lax">Option 4 blah blah</td>
+						<td class="tg-0lax">$250.00</td>
+					  </tr>
+					  <tr>
+						<td class="tg-0lax">Option 5 blah blah</td>
+						<td class="tg-0lax">$400.00</td>
+					  </tr>
+					</tbody>
+					</table>
+				<a class="modal-close-text" href="#" rel="modal:close">Close</a>
+				</div>
 			</div>
 
 		<!-- Scripts -->
